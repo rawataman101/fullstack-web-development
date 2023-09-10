@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+}
+
+h1,
+h3,
+h4 {
+  color: green;
+}
+
+article {
+  background-color: lightyellow;
+}
+
+.article__1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#article__2 {
+  background-color: snow;
+}

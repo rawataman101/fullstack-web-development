@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Combinators</title>
+    <style>
+      /* Descendant  selectors */
+      li a {
+        color: red;
+      }
+      .main {
+        color: blue;
+      }
+      .main__para {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#"> Top 3 browsers </a>
+    <ol>
+      <li><a href="https://www.mozilla.org/en-US/firefox/new/ ">Firefox</a></li>
+      <li>
+        <a href="https://www.microsoft.com/en-us/edge?exp=e511&form=MA13FJ"
+          >Microsoft Edge</a
+        >
+      </li>
+    </ol>
+    <main class="main">
+      <h1 class="main__h1">Let's find the winner</h1>
+      <p class="main__para">hurray!!</p>
+    </main>
+  </body>
+</html>
+<!-- Precedence -->
+<!-- 1.inline style 2.id 3.class  -> find the more specific one-->

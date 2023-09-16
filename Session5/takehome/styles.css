@@ -1,0 +1,58 @@
+/* level1 - The menu container should hold a margin of 1rem and a padding of 4px*/
+.menu {
+  margin: 1rem;
+  padding: 4px;
+}
+
+.dot {
+  height: 1rem;
+  width: 1rem;
+  margin-bottom: 4px;
+  border-radius: 50%;
+  background-color: #424242;
+}
+
+.square {
+  height: 1rem;
+  width: 1rem;
+  margin-bottom: 4px;
+  background-color: #424242;
+}
+
+.rect {
+  width: 2.5rem;
+  height: 0.5rem;
+  margin-bottom: 4px;
+  background-color: #424242;
+}
+
+/* level2 */
+/* .dot:hover {
+  background-color: rgba(68, 240, 76, 0.4);
+}
+
+.square:hover {
+  background-color: rgba(68, 240, 76, 0.4);
+}
+
+.rect:hover {
+  background-color: rgba(68, 240, 76, 0.4);
+} */
+
+/* level3 */
+.dot:last-child {
+  margin-bottom: 0;
+}
+.square:last-child {
+  margin-bottom: 0;
+}
+.rect:last-child {
+  margin-bottom: 0;
+}
+
+.dot:hover,
+.square:hover,
+.rect:hover {
+  background-color: rgba(68, 240, 76, 0.4);
+  cursor: pointer;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box</title>
+    <style>
+      .parent {
+        display: flex;
+        flex-wrap: wrap;
+        /*
+        justify content - to center the items
+        flex direction - to change the axis main and cross section
+        */
+        justify-content: space-between; /*for main-axis*/
+
+        align-content: center; /*for cross-axis section*/
+        border: 3px solid black;
+      }
+      .parent__box {
+        width: 100px;
+        height: 100px;
+      }
+      a {
+        color: aliceblue;
+      }
+      .parent * {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box1 {
+        background-color: gray;
+      }
+      .box2 {
+        background-color: blueviolet;
+      }
+      .box3 {
+        background-color: palevioletred;
+      }
+      .box4 {
+        background-color: royalblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box1 parent__box">
+        <a href="#"><h3>HOME</h3></a>
+      </div>
+      <div class="box2 parent__box">
+        <a href="#"><h3>ABOUT</h3></a>
+      </div>
+      <div class="box3 parent__box">
+        <a href="#"><h3>GALLERY</h3></a>
+      </div>
+      <div class="box4 parent__box">
+        <a href="#"><h3>CONTACT</h3></a>
+      </div>
+      <div class="box1 parent__box">
+        <a href="#"><h3>CONTACT</h3></a>
+      </div>
+      <div class="box2 parent__box">
+        <a href="#"><h3>CONTACT</h3></a>
+      </div>
+      <div class="box3 parent__box">
+        <a href="#"><h3>CONTACT</h3></a>
+      </div>
+    </div>
+  </body>
+</html>

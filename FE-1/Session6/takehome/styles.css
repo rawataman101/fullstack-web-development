@@ -9,36 +9,41 @@ body {
   background-color: rgb(255, 228, 196);
 }
 .blog__card {
-  min-width: 256px;
+  min-width: 128px;
   max-width: 256px;
   min-height: 128px;
-  border-radius: 10px;
-  margin-bottom: 16px;
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
   background-color: rgb(255, 250, 250);
 }
 
+/* image  */
 .card__img {
   height: 100%;
   width: 100%;
+}
+
+.card__img img {
   object-fit: contain;
   border-radius: 10px 10px 0 0;
 }
 
+/* body */
 .card__content {
-  padding: 16px;
+  padding: 1rem;
   padding-top: 0;
 }
 
 /* Card body elements */
 .card-body h2 {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.75rem;
   opacity: 50%;
 }
 
 .card-body h1 {
-  font-size: 21px;
-  margin-bottom: 24px;
+  font-size: 1.3125rem;
+  margin-bottom: 1.5rem;
 }
 .cardBody p {
   font-size: 14.4px;
@@ -47,7 +52,7 @@ body {
 
 /* footer */
 .card__footer {
-  font-size: 12.8px;
+  font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,3 +62,16 @@ body {
   color: rgb(109, 109, 235);
   text-decoration: none;
 }
+
+/* important units to remember
+em
+rem
+px - most complex unit - 1px is the smallest pixel on screen to see the line on different screen
+ch - measure the width of the character 0 of your font
+vh - viewport unit
+*/
+
+/* 
+Min-width - atleast
+Max-width - atmost 
+*/

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grids</title>
+    <style>
+      .grid__container {
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 100px 100px 100px;
+      }
+      .grid__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: 2px solid white;
+      }
+      #id1 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      #id2 {
+        background-color: blue;
+      }
+      #id3 {
+        background-color: green;
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+      #id4 {
+        background-color: violet;
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      #id5 {
+        background-color: chocolate;
+      }
+      #id6 {
+        background-color: cadetblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid__container">
+      <div class="grid__item" id="id1">1</div>
+      <div class="grid__item" id="id2">2</div>
+      <div class="grid__item" id="id3">3</div>
+      <div class="grid__item" id="id4">4</div>
+      <div class="grid__item" id="id5">5</div>
+      <div class="grid__item" id="id6">6</div>
+    </div>
+  </body>
+</html>

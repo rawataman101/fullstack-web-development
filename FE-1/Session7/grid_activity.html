@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>Grid</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: repeat(3, 33.33%);
+      height: 100vh;
+    }
+    #id1 {
+      background-color: red;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    #id2 {
+      background-color: yellow;
+    }
+    #id3 {
+      background-color: green;
+      grid-row-start: 2;
+      grid-row-end: 5;
+    }
+    #id4 {
+      background-color: blue;
+    }
+    #id5 {
+      background-color: violet;
+    }
+    #id6 {
+      background-color: orange;
+    }
+    #id7 {
+      background-color: red;
+    }
+    #id8 {
+      background-color: hotpink;
+    }
+    #id9 {
+      background-color: red;
+      /* grid-row-start: 1;
+      grid-row-end: 3; */
+    }
+    #id10 {
+      background-color: yellow;
+      /* grid-column-start: 2;
+      grid-column-end: 4; */
+    }
+    #id11 {
+      background-color: green;
+    }
+    #id12 {
+      background-color: blue;
+    }
+    header {
+      display: flex;
+      justify-content: center;
+    }
+    header h1 {
+      color: gray;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>CSS GRIDS - ACTIVITY</h1>
+    </header>
+    <div class="grid-container">
+      <div class="grid-item" id="id1"></div>
+      <div class="grid-item" id="id2"></div>
+      <div class="grid-item" id="id3"></div>
+      <div class="grid-item" id="id4"></div>
+      <div class="grid-item" id="id5"></div>
+      <div class="grid-item" id="id6"></div>
+      <!-- <div class="grid-item" id="id7"></div>
+      <div class="grid-item" id="id8"></div>
+      <div class="grid-item" id="id9"></div>
+      <div class="grid-item" id="id10"></div>
+      <div class="grid-item" id="id11"></div>
+      <div class="grid-item" id="id12"></div> -->
+    </div>
+  </body>
+</html>

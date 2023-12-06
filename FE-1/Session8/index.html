@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions</title>
+    <style>
+      .position {
+        height: 2000px;
+        width: 400px;
+        border: 2px solid black;
+        margin: 20px;
+        position: relative;
+      }
+      .relPosition {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        z-index: 1;
+      }
+      .absPosition {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        position: absolute;
+      }
+      .fixPosition {
+        height: 60px;
+        width: 60px;
+        background-color: orange;
+        position: fixed;
+        top: 40px;
+        right: 40px;
+      }
+      .stickyPosition {
+        height: 50px;
+        width: 50px;
+        background-color: yellow;
+        position: sticky;
+        top: 50px;
+        left: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="position">
+      <div class="relPosition">relPosition</div>
+      <div class="absPosition">absPosition</div>
+      <div class="fixPosition">fixPosition</div>
+      <div class="stickyPosition">stickyPosition</div>
+      <div class="staticPosition">staticPosition</div>
+    </div>
+  </body>
+</html>
